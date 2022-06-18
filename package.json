@@ -1,0 +1,26 @@
+{
+  "name": "json2gostruct",
+  "version": "1.0.0",
+  "description": "convert plain json to golang struct",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc && pkg . --output json2gostruct"
+  },
+  "bin": {
+    "json2gostruct": "./build/src/command.js"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js"
+  },
+  "author": "amarps",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "pkg": "^5.7.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/commander": "^2.12.2"
+  }
+}
