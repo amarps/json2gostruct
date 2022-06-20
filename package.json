@@ -1,6 +1,6 @@
 {
   "name": "json2gostruct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert plain json to golang struct",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { OptionValues, program } from 'commander'
 import * as packageJson from '../package.json'
 import * as readline from 'readline'
